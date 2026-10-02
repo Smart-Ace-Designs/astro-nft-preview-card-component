@@ -12,7 +12,7 @@ import profileImage from "@/assets/image-avatar.png";
 >
   <main class="flex h-screen justify-center bg-theme-blue-950 px-6 pt-16 md:items-center md:pt-0">
     <section class="h-fit max-w-84 rounded-xl bg-theme-blue-900 p-6">
-      <a href="/">
+      <a href={import.meta.env.BASE_URL}>
         <div class="group relative">
           <Image
             src={nftImage}
@@ -45,7 +45,7 @@ import profileImage from "@/assets/image-avatar.png";
       <h1
         class="mt-5 text-xl font-semibold tracking-wider text-theme-white transition-colors duration-600 hover:cursor-pointer hover:text-theme-cyan-400"
       >
-        <a href="/">Equilibrium #3429</a>
+        <a href={import.meta.env.BASE_URL}>Equilibrium #3429</a>
       </h1>
       <p class="mt-2 leading-relaxed font-light text-theme-blue-500 md:mt-3 md:text-lg">
         Our Equilibrium collection promotes balance and calm.
@@ -80,7 +80,7 @@ import profileImage from "@/assets/image-avatar.png";
           format="webp"
         />
         <p class="font-light text-theme-white">
-          <span class="text-theme-blue-500">Creation of</span>
+          <span class="text-theme-blue-500">Creation of </span>
           <a
             href="mailto:juleswyvern@acme.com"
             class="transition-colors duration-600 hover:cursor-pointer hover:text-theme-cyan-400"
